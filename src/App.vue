@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <RouterLink to="/meds">Meds</RouterLink>
-  <RouterLink to="/notifications">Notifications</RouterLink>
-  <RouterLink to="/settings">Settings</RouterLink>
+  <RouterLink to="/meds">{{ $t('tabs.meds') }}</RouterLink>
+  <RouterLink to="/notifications">{{ $t('tabs.notifications') }}</RouterLink>
+  <RouterLink to="/settings">{{ $t('tabs.settings') }}</RouterLink>
   <RouterView />
 </template>
