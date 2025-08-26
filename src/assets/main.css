@@ -1,1 +1,9 @@
 @import 'tailwindcss';
+
+body {
+  @apply h-dvh bg-white text-stone-950 dark:bg-stone-950 dark:text-stone-50;
+}
+
+#app {
+  @apply flex h-full flex-col;
+}
