@@ -36,7 +36,7 @@ jobs:
           node-version: 24
           check-latest: true
           cache: "pnpm"
-          cache-dependency-path: "pnpm-lock.json"
+          cache-dependency-path: "pnpm-lock.yaml"
       - name: Install dependencies
         run:  pnpm i
       - name: Build project
