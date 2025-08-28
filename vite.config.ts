@@ -23,7 +23,7 @@ export default defineConfig({
         background_color: '#212121',
         icons: [{ src: 'favicon.webp', sizes: '180x180', type: 'image/webp' }],
         display: 'standalone',
-        start_url: '/meds',
+        start_url: '/',
       },
       workbox: {},
       includeAssets: ['favicon.ico'],
